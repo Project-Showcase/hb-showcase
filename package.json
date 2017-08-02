@@ -1,9 +1,9 @@
 {
-  "name": "Isabelle-Miller",
+  "name": "hb-showcase",
   "private": false,
   "version": "1.0.0",
-  "description": "personal site for Isabelle Miller",
-  "repository": "https://github.com/sloloris/personal-site",
+  "description": "Showcase for Hackbright final projects",
+  "repository": "https://github.com/sloloris/hb-showcase",
   "license": "",
   "main": "server.js",
   "devDependencies": {},
