@@ -6,10 +6,13 @@
   "repository": "https://github.com/sloloris/hb-showcase",
   "license": "",
   "main": "server.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
   "scripts": {
     "prestart": "npm install",
-    "start": "supervisor server.js"
+    "start:dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": "0.12.x",
