@@ -1,5 +1,5 @@
 'use strict';
-module.exports = function(sequelize, DataTypes) {
+module.exports = (sequelize, DataTypes) => {
   var Project = sequelize.define('Project', {
     projectGithub: {
       type: DataTypes.STRING,
@@ -16,7 +16,7 @@ module.exports = function(sequelize, DataTypes) {
     }
   }, {
     classMethods: {
-      associate: function(models) {
+      associate: (models) => {
         // associations can be defined here
           Project.belongsTo(models.User, {
           foreignKey: 'userId',
