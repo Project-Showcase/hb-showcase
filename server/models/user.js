@@ -1,11 +1,6 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   var User = sequelize.define('User', {
-    userId: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      autoIncrement: true,
-    },
     firstName: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -25,10 +20,6 @@ module.exports = (sequelize, DataTypes) => {
     },
     projectId: {
       type: DataTypes.INTEGER,
-      references: {
-        model: Project,
-        key: 'projectId',
-      }
     }
   }, {
     classMethods: {
