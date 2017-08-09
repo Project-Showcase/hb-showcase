@@ -10,16 +10,3 @@ const server = http.createServer(app);
 models.sequelize.sync().then(() => {
     server.listen(port);
 })
-
-
-
-// models.sequelize.sync().then(() => {
-//   /**
-//    * Listen on provided port, on all network interfaces.
-//    */
-//   server.listen(port, () => {
-//   //   debug('Express server listening on port ' + server.address().port);
-//   // });
-//   server.on('error', onError);
-//   server.on('listening', onListening);
-// });
