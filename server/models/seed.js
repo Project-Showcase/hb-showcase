@@ -1,8 +1,5 @@
-var sequelize = require('sequelize')
-
-var populateDatabase = (queryInterface, Sequelize) => {
-  return [
-    queryInterface.bulkInsert('User', [
+module.exports = (queryInterface, Sequelize) => {
+  var populateDB = queryInterface.bulkInsert('User', [
       { 
         firstName: 'Isabelle',
         lastName: 'Miller',
@@ -15,5 +12,6 @@ var populateDatabase = (queryInterface, Sequelize) => {
         github: 'leahyukelson',
         linkedIn: 'https://www.linkedin.com/in/leahyukelson/'
       }
-      ])];
+      ]);
+  return populateDB
 };
