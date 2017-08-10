@@ -1,3 +1,5 @@
+var sequelize = require('sequelize')
+
 var populateDatabase = (queryInterface, Sequelize) => {
   return [
     queryInterface.bulkInsert('User', [
