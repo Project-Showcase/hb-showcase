@@ -7,11 +7,10 @@ Stay tuned for additional updates.
 ### Todos
 
 * create templates for React/Redux
-* design database
-* create student component
-* create project component
 * create card component/container
+* seed data into database
 
 | Leah                            | Isabelle                        | 
 |---------------------------------|---------------------------------|
-| tasks here                      | tasks here                      |
+|  * start developing card        | * fix gitignore                 |
+|                                 | * look into sequelize seeding   |
