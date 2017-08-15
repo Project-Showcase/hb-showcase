@@ -32,5 +32,17 @@ module.exports = (sequelize, DataTypes) => {
       }
     }
   });
+  User.bulkCreate([{ 
+        firstName: 'Isabelle',
+        lastName: 'Miller',
+        github: 'sloloris',
+        linkedIn: 'https://www.linkedin.com/in/isabelle-miller/'
+      },
+      {
+        firstName: 'Leah',
+        lastName: 'Yukelson',
+        github: 'leahyukelson',
+        linkedIn: 'https://www.linkedin.com/in/leahyukelson/'
+      }])
   return User;
 };
