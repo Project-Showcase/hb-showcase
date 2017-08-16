@@ -8,9 +8,9 @@ Stay tuned for additional updates.
 
 * create templates for React/Redux
 * create card component/container
-* seed data into database
+* debug data seeding so it doesn't seed EVERY time
 
 | Leah                            | Isabelle                        | 
 |---------------------------------|---------------------------------|
-|  * start developing card        | * fix gitignore                 |
-|                                 | * look into sequelize seeding   |
+|  * start developing card        |                                 |
+|                                 |                                 |
