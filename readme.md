@@ -12,7 +12,7 @@ Stay tuned for additional updates.
 
 | Leah                            | Isabelle                        | 
 |---------------------------------|---------------------------------|
-|  * start developing card        |                                 |
+|  add project migration file        |                                 |
 |                                 |                                 |
 
 ### Issue Log

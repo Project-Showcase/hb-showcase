@@ -53,6 +53,7 @@
     "sequelize": "^4.4.2",
     "style-loader": "^0.16.1",
     "url-loader": "^0.5.8",
-    "webpack": "^2.7.0"
+    "webpack": "^2.7.0",
+    "whatwg-fetch": "^2.0.3"
   }
 }
