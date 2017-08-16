@@ -8,9 +8,14 @@ Stay tuned for additional updates.
 
 * create templates for React/Redux
 * create card component/container
-* debug data seeding so it doesn't seed EVERY time
+
 
 | Leah                            | Isabelle                        | 
 |---------------------------------|---------------------------------|
 |  * start developing card        |                                 |
 |                                 |                                 |
+
+### Issue Log
+
+* Database seeding every time booted
+* Querying database for Users and Projects
