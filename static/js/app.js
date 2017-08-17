@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from 'redux';
-import Card from './js/components/Card';
+import Card from './components/Card';
 
 require('../stylesheets/app.scss');
 

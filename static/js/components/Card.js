@@ -1,4 +1,4 @@
-require('../styles/card.css')
+// require('../styles/card.css')
 
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
@@ -10,7 +10,6 @@ class Card extends Component {
     getUsers: PropTypes.func.isRequired,
     getProjects: PropTypes.func.isRequired,
   }
-}
 
   _generateIndividualCards = () => {
     
@@ -22,7 +21,8 @@ class Card extends Component {
       <div className='card-container'>
       I SHALL HOLD SOME INFOS AT SOME FUTURE INDETERMINATE POINT
       </div>
-    )
+    );
   }
+}
 
-  export default Card
+export default Card;
