@@ -5,15 +5,15 @@ import PropTypes from 'prop-types'
 
 class Card extends Component {
   static propTypes = {
-
+    users: PropTypes.array.isRequired,
+    projects: PropTypes.array.isRequired,
+    getUsers: PropTypes.func.isRequired,
+    getProjects: PropTypes.func.isRequired,
   }
 }
 
-  constructor(props) {
-    super(props)
-    this.state = {
-
-    }
+  _generateIndividualCards = () => {
+    
   }
 
   render() {
