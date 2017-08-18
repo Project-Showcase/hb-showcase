@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
+import thunkMiddleware from 'redux-thunk'
 import Card from './components/Card';
 
 require('../stylesheets/app.scss');
 
 const store = createStore(
-    reducer,
     applyMiddleware(
         thunkMiddleware,
     )
