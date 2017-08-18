@@ -1,4 +1,4 @@
-export default const users = (state = [], action) => {
+export default users = (state = [], action) => {
     switch(action.type) {
         case 'SET_USERS':
             return action.payload.users;

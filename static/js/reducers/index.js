@@ -2,7 +2,7 @@ import { combineReducers } from 'redux';
 import projects from './projectReducer';
 import users from './userReducer';
 
-export default const cardReducer = combineReducers ({
+export default cardReducer = combineReducers ({
     projects,
     users
 })

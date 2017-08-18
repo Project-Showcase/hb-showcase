@@ -1,4 +1,4 @@
-export default const projects = (state = [], action) => {
+export default projects = (state = [], action) => {
     switch(action.type) {
         case 'SET_PROJECTS':
             return action.payload.projects;
