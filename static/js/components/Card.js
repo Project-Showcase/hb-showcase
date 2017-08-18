@@ -1,7 +1,8 @@
 // require('../styles/card.css')
 
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { getUsers, getProjects } from '../actions/index';
 
 class Card extends Component {
   static propTypes = {
@@ -9,6 +10,11 @@ class Card extends Component {
     projects: PropTypes.array.isRequired,
     getUsers: PropTypes.func.isRequired,
     getProjects: PropTypes.func.isRequired,
+  }
+
+  componentDidMount() {
+    this.props.getUsers();
+    this.proprs.getProjects();
   }
 
   _generateIndividualCards = () => {
@@ -19,7 +25,7 @@ class Card extends Component {
     return(
       // insert JSX here
       <div className='card-container'>
-      I SHALL HOLD SOME INFOS AT SOME FUTURE INDETERMINATE POINT
+      CARD INFO HERE
       </div>
     );
   }
